@@ -24,6 +24,9 @@ sudo make install
 ```
 
 ## Verification
+
+Check if ruby has  `-ljemalloc`
+
 ```
 ruby -r rbconfig -e "puts RbConfig::CONFIG['MAINLIBS']"
 ```
