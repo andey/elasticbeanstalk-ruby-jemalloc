@@ -1,0 +1,2 @@
+[ec2-user@ip-172-16-2-28 current]$ ruby -r rbconfig -e 'puts RbConfig::CONFIG["configure_args"]'
+ '--prefix=/opt/rubies/ruby-2.6.5' 'LDFLAGS=-L/opt/rubies/ruby-2.6.5/lib ' 'CPPFLAGS=-I/opt/rubies/ruby-2.6.5/include 
