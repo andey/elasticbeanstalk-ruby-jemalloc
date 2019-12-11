@@ -5,3 +5,8 @@ yum repo for installing ruby with jemalloc on elasticbeanstalk
 ```
 sudo yum install jemalloc-devel
 ```
+
+## Verification
+```
+ruby -r rbconfig -e "puts RbConfig::CONFIG['MAINLIBS']"
+```
