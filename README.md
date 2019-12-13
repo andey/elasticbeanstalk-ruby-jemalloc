@@ -17,10 +17,8 @@ make
 
 ## Install
 ```
-wget https://github.com/andey/elasticbeanstalk-ruby-jemalloc/releases/download/2.6.5/ruby-2.6.5.tar.gz
-tar -xzf ruby-2.6.5.tar.gz
-cd ruby-2.6.5
-sudo make install
+wget https://github.com/andey/elasticbeanstalk-ruby-jemalloc/releases/download/2.6.5/ruby-2.6.5.tar.gzz
+tar xvzf ruby-2.6.5.tar.gz -C /opt/rubies
 ```
 
 ## Verification
