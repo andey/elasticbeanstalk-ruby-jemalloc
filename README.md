@@ -13,7 +13,7 @@ These are the instructions I've used to build ruby.
 wget https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.5.tar.gz
 tar xvzf ruby-2.6.5.tar.gz
 cd ruby-2.6.5
-LDFLAGS=-L/opt/rubies/ruby-2.6.5/lib CPPFLAGS=-I/opt/rubies/ruby-2.6.5/include ./configure --prefix=/opt/rubies/ruby-2.6.5 --with-jemalloc
+LDFLAGS=-L/opt/rubies/ruby-2.6.5/lib CPPFLAGS=-I/opt/rubies/ruby-2.6.5/include ./configure --prefix=/opt/rubies/ruby-2.6.5 --with-jemalloc --disable-install-doc
 make
 sudo make install
 ```
